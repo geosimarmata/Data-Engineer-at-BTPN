@@ -18,16 +18,25 @@ A bank manager is expressing concern over the rising trend of customers disconti
 - **Reporting**: Google Slides
 
 ## Datasets
-1. **Status Data (status_db)**
-
+1. **Status Data (status_db)**:
+* Description: This dataset contains the status of the customers, indicating whether they are existing customers or have churned.
+* Function: Helps identify and classify customers based on their current status with the bank.
 
 2. **Marital Status Data (marital_db)**
-
+* Description: This dataset provides information about the marital status of the customers.
+* Function: Used to analyze the influence of marital status on customer churn.
+  
 3. **Education Data (education_db)**
+* Description: This dataset contains the education levels of the customers.
+* Function: Helps in understanding the relationship between educational background and churn behavior.
 
 4. **Card Category Data (category_db)**
+* Description: This dataset includes different categories of credit cards held by the customers.
+* Function: Used to determine if certain card categories are more prone to customer churn.
 
 5. **Customer Data History (customer_data_history)**
+* Description: This dataset holds historical data of customers, including demographics, account information, and transaction history.
+* Function: Provides comprehensive data for profiling customers, analyzing behavior, and predicting churn.
 
 ## Data Mart
 ### Base Table
