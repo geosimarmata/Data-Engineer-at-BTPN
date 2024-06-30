@@ -38,17 +38,26 @@ A bank manager is expressing concern over the rising trend of customers disconti
 * Description: This dataset holds historical data of customers, including demographics, account information, and transaction history.
 * Function: Provides comprehensive data for profiling customers, analyzing behavior, and predicting churn.
 
-## Data Mart
-### Base Table
-The base table contains raw data collected from its source and necessary information to answer specific questions.
+## Data Analysis
+### customer_data_combined Table
+* Description: A consolidated table combining necessary customer data from multiple tables.
+* Purpose: Serves as the base table for further analysis and visualization.
 
-### Aggregate Table
-The aggregate table is created by collecting and calculating data from the base table, containing more concise information for quicker and more efficient data analysis.
+### Churn Analysis View
+* Description: A view created for analyzing churn with customer segmentation based on age, utilization ratio, years on book, credit limit, revolving balance, open-to-buy amount, transaction amount, and transaction frequency.
+* Purpose: Provides a segmented view to better understand customer churn patterns.
+
+### Key Metrics and Insights
+1. **Percentage of Churned Customers by Status**
+* Purpose: Determines the percentage of customers who have churned vs. those who are still active.
+2. **Distribution of Churned Customers by Age Segment**
+* Purpose: Analyzes the age distribution of churned customers to identify age-related churn patterns.
+3. **Income Category Distribution Among Churned Customers by Gender**
+* Purpose: Examines the relationship between income categories and gender among churned customers.
 
 ## Visualizations
 Export the aggregate table to CSV, then build a dashboard using the data from the aggregate table in Tableau.
 - **Tableau Dashboard**: [View Dashboard](#)
-- **Google Slides Report**: [View Slides](#)
 
 ## Conclusion and Recommendation
 **Conclusion**:
@@ -56,13 +65,13 @@ Export the aggregate table to CSV, then build a dashboard using the data from th
 * Customers with lower income categories have higher churn rates.
   
 **Recommendations**:
-* Targeted Customer Engagement: Develop targeted engagement strategies for younger and older customers with personalized offers and services.
-* Financial Advisory Services: Provide financial advisory services to lower-income customers to help them manage their finances better.
-* Loyalty Programs: Implement loyalty programs aimed at younger and lower-income customers to increase their engagement and satisfaction.
+* **Targeted Customer Engagement**: Develop targeted engagement strategies for younger and older customers with personalized offers and services.
+* **Financial Advisory Services**: Provide financial advisory services to lower-income customers to help them manage their finances better.
+* **Loyalty Programs**: Implement loyalty programs aimed at younger and lower-income customers to increase their engagement and satisfaction.
 
 
 ## Acknowledgments
 This project was completed as part of the Data Engineer Virtual Internship at Rakamin Academy, in collaboration with BTPN Syariah.
 
-For more details, please refer to the [virtual internship details](#).
+For more details, please refer to the [virtual internship details](https://www.rakamin.com/virtual-internship-experience/task/data-engineer-btpn-syariah/3901)
 
