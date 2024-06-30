@@ -1,0 +1,10 @@
+"gender","income_category","total_customers"
+F,Less than $40K,582
+F,Unknown,182
+M,$120K +,126
+M,$60K - $80K,189
+F,$40K - $60K,166
+M,$80K - $120K,242
+M,Less than $40K,30
+M,$40K - $60K,105
+M,Unknown,5
