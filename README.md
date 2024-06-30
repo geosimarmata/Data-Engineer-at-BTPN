@@ -6,18 +6,17 @@ This project aims to analyze and predict customer churn for credit card services
 ## Project Scenario
 A bank manager is expressing concern over the rising trend of customers discontinuing their credit card services. They seek assistance in profiling customers to predict those who are likely to leave their credit card services. This proactive approach will empower the company to reach out to these customers, deliver enhanced services, and positively influence their decisions.
 
-## Project Stages
-1. **Determine Business Objectives**
-2. **Data Exploration**
-3. **Insight and Visualization**
-4. **Conclusions and Recommendations**
-
 ## Tools and Technologies
 - **Query and Database Management**: MySQL Server
 - **Data Visualization**: Tableau
 - **Reporting**: Google Slides
 
-## Datasets
+## Project Stages
+## 1. **Determine Business Objectives**
+## 2. **Data Exploration**
+The project involves thorough exploration of customer data to uncover patterns and trends related to churn behavior. This includes analyzing demographic information, transaction history, and customer interactions with the bank's services.
+
+### Datasets
 1. **Status Data (status_db)**:
 * Description: This dataset contains the status of the customers, indicating whether they are existing customers or have churned.
 * Function: Helps identify and classify customers based on their current status with the bank.
@@ -38,28 +37,29 @@ A bank manager is expressing concern over the rising trend of customers disconti
 * Description: This dataset holds historical data of customers, including demographics, account information, and transaction history.
 * Function: Provides comprehensive data for profiling customers, analyzing behavior, and predicting churn.
 
-## Data Analysis
-### customer_data_combined Table
+## 3. **Insight and Visualization**
+### Data Analysis
+1. customer_data_combined Table
 * Description: A consolidated table combining necessary customer data from multiple tables.
 * Purpose: Serves as the base table for further analysis and visualization.
 
-### Churn Analysis View
+2. Churn Analysis View
 * Description: A view created for analyzing churn with customer segmentation based on age, utilization ratio, years on book, credit limit, revolving balance, open-to-buy amount, transaction amount, and transaction frequency.
 * Purpose: Provides a segmented view to better understand customer churn patterns.
 
-### Key Metrics and Insights
+3. Key Metrics and Insights
 1. **Percentage of Churned Customers by Status**
 * Purpose: Determines the percentage of customers who have churned vs. those who are still active.
 2. **Distribution of Churned Customers by Age Segment**
 * Purpose: Analyzes the age distribution of churned customers to identify age-related churn patterns.
 3. **Income Category Distribution Among Churned Customers by Gender**
 * Purpose: Examines the relationship between income categories and gender among churned customers.
-
+  
 ## Visualizations
 Export the aggregate table to CSV, then build a dashboard using the data from the aggregate table in Tableau.
 - **Tableau Dashboard**: [View Dashboard](#)
 
-## Conclusion and Recommendation
+## 4. **Conclusions and Recommendations**
 **Conclusion**:
 * Younger and older customers are more likely to churn.
 * Customers with lower income categories have higher churn rates.
