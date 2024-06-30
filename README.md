@@ -37,6 +37,7 @@ The project involves thorough exploration of customer data to uncover patterns a
 * Description: This dataset holds historical data of customers, including demographics, account information, and transaction history.
 * Function: Provides comprehensive data for profiling customers, analyzing behavior, and predicting churn.
 
+
 ## 3. **Insight and Visualization**
 ### Data Analysis
 1. customer_data_combined Table
@@ -55,7 +56,7 @@ The project involves thorough exploration of customer data to uncover patterns a
 3. **Income Category Distribution Among Churned Customers by Gender**
 * Purpose: Examines the relationship between income categories and gender among churned customers.
   
-## Visualizations
+# Visualizations
 Export the aggregate table to CSV, then build a dashboard using the data from the aggregate table in Tableau.
 - **Tableau Dashboard**: [View Dashboard](#)
 
