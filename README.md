@@ -56,7 +56,7 @@ The project involves thorough exploration of customer data to uncover patterns a
 3. **Income Category Distribution Among Churned Customers by Gender**
 * Purpose: Examines the relationship between income categories and gender among churned customers.
   
-# Visualizations
+### Visualizations
 Export the aggregate table to CSV, then build a dashboard using the data from the aggregate table in Tableau.
 - **Tableau Dashboard**: [View Dashboard](#)
 
@@ -71,7 +71,7 @@ Export the aggregate table to CSV, then build a dashboard using the data from th
 * **Loyalty Programs**: Implement loyalty programs aimed at younger and lower-income customers to increase their engagement and satisfaction.
 
 
-## Acknowledgments
+### Acknowledgments
 This project was completed as part of the Data Engineer Virtual Internship at Rakamin Academy, in collaboration with BTPN Syariah.
 
 For more details, please refer to the [virtual internship details](https://www.rakamin.com/virtual-internship-experience/task/data-engineer-btpn-syariah/3901)
