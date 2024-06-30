@@ -15,7 +15,9 @@ A bank manager is expressing concern over the rising trend of customers disconti
 ## 1. **Determine Business Objectives**
 ## 2. **Data Exploration**
 The project involves thorough exploration of customer data to uncover patterns and trends related to churn behavior. This includes analyzing demographic information, transaction history, and customer interactions with the bank's services.
-![Access SQL Scripts](https://github.com/geosimarmata/Data-Engineer-at-BTPN/blob/main/All_Script.sql)
+
+[Access SQL Scripts](https://github.com/geosimarmata/Data-Engineer-at-BTPN/blob/main/All_Script.sql)
+
 ### Datasets
 1. **Status Data (status_db)**:
 * Description: This dataset contains the status of the customers, indicating whether they are existing customers or have churned.
